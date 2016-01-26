@@ -16,3 +16,9 @@ html {
   box-sizing: inherit;
 }
 
+@keyframes eye-slide {
+
+  from { transform: translate(0px, 0); }
+
+  to { transform: translate(10px, 0); }
+}
