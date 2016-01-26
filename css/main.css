@@ -16,11 +16,11 @@ html {
   box-sizing: inherit;
 }
 
-.right-eye{
+.right-eye {
   animation: eye-slide 2s linear infinite alternate;
 }
 
-.left-eye{
+.left-eye {
   animation: eye-slide 2s linear infinite alternate;
 }
 
@@ -31,17 +31,15 @@ html {
   to { transform: translate(10px, 0); }
 }
 
-
-.left-ear{
+.left-ear {
   transition: all .3s linear;
 }
 
-.right-ear{
+.right-ear {
   transition: all .3s linear;
 }
 
 .bear:hover .left-ear,
 .bear:hover .right-ear{
-  transform: translateY(-8px)
+  transform: translateY(-8px);
 }
-
