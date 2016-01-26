@@ -31,6 +31,7 @@ html {
   to { transform: translate(10px, 0); }
 }
 
+
 .right-ear{
 	animation: ear-slide 5s linear infinite alternate;
 }
@@ -41,7 +42,7 @@ html {
 
 @keyframes ear-slide {
 
-  from { transform: translate(0, 15px); }
+  from { transform: translate(0, 0px); }
 
   to { transform: translate(0, 15px); }
 }
