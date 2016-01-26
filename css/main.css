@@ -39,3 +39,9 @@ html {
 	animation: ear-slide 5s linear infinite alternate;
 }
 
+@keyframes ear-slide {
+
+  from { transform: translate(0, 15px); }
+
+  to { transform: translate(0, 15px); }
+}
