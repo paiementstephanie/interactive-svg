@@ -21,6 +21,7 @@ html {
 }
 
 .left-eye{
+  animation: eye-slide 2s linear infinite alternate;
 }
 
 @keyframes eye-slide {
@@ -30,10 +31,6 @@ html {
   to { transform: translate(10px, 0); }
 }
 
-
-.right-ear{
-	animation: ear-slide 5s linear infinite alternate;
-}
 
 .left-ear{
   transition: all .3s linear;
