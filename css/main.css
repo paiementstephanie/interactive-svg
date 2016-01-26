@@ -26,7 +26,7 @@ html {
 
 @keyframes eye-slide {
 
-  from { transform: translate(0px, 0); }
+  from { transform: translate(0, 0); }
 
   to { transform: translate(10px, 0); }
 }
@@ -40,6 +40,6 @@ html {
 }
 
 .bear:hover .left-ear,
-.bear:hover .right-ear{
+.bear:hover .right-ear {
   transform: translateY(-8px);
 }
