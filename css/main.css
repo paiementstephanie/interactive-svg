@@ -30,3 +30,12 @@ html {
 
   to { transform: translate(10px, 0); }
 }
+
+.right-ear{
+	animation: ear-slide 5s linear infinite alternate;
+}
+
+.left-ear{
+	animation: ear-slide 5s linear infinite alternate;
+}
+
