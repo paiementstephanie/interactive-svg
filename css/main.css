@@ -16,6 +16,14 @@ html {
   box-sizing: inherit;
 }
 
+.right-eye{
+	animation: eye-slide 2s linear infinite alternate;
+}
+
+.left-eye{
+	animation: eye-slide 2s linear infinite alternate;
+}
+
 @keyframes eye-slide {
 
   from { transform: translate(0px, 0); }
