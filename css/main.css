@@ -17,11 +17,10 @@ html {
 }
 
 .right-eye{
-	animation: eye-slide 2s linear infinite alternate;
+  animation: eye-slide 2s linear infinite alternate;
 }
 
 .left-eye{
-	animation: eye-slide 2s linear infinite alternate;
 }
 
 @keyframes eye-slide {
@@ -37,12 +36,15 @@ html {
 }
 
 .left-ear{
-	animation: ear-slide 5s linear infinite alternate;
+  transition: all .3s linear;
 }
 
-@keyframes ear-slide {
-
-  from { transform: translate(0, 0px); }
-
-  to { transform: translate(0, 15px); }
+.right-ear{
+  transition: all .3s linear;
 }
+
+.bear:hover .left-ear,
+.bear:hover .right-ear{
+  transform: translateY(-8px)
+}
+
